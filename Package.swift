@@ -12,7 +12,7 @@ let package = Package(
    
    ],
    targets: [
-    .binaryTarget(name: "MokoResources", path: " ./Sources/Moko/MokoResources.xcframework"),
+    .binaryTarget(name: "MokoResources", path: " ./Sources/Moko/MokoResources.xcframework.zip"),
     .executableTarget(name: "ExecutableTarget",dependencies: ["MokoResources"])
    ]
 )
