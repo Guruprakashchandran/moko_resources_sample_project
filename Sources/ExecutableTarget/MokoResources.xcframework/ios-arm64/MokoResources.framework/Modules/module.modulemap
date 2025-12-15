@@ -1,0 +1,8 @@
+framework module "MokoResources" {
+    umbrella header "MokoResources.h"
+
+    export *
+    module * { export * }
+
+    use Foundation
+}
